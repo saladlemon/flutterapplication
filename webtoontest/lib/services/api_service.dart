@@ -4,7 +4,7 @@ import 'package:http/http.dart' as http;
 import 'package:webtoontest/models/webtoon_model.dart';
 
 class ApiService {
-  static const baseUrl = "https://webtoon-crawler.nomadcoders.workers.dev/";
+  static const baseUrl = "https://webtoon-crawler.nomadcoders.workers.dev";
   static const today = "today";
 
   static Future<List<WebtoonModel>> getTodaysToons() async {
